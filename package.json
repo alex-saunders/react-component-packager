@@ -1,0 +1,29 @@
+{
+  "name": "react-bundler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "./src/main.js",
+  "resolutions": {
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2",
+    "prettier": "^1.17.0",
+    "webpack": "^4.35.2",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
